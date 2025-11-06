@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="amir.css" />
+  </head>
+
+  <body>
+    <img src="Wallpaper 4k.jpg" id="bg-video" />
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input
+        type="hidden"
+        name="access_key"
+        value="af9c019f-70d0-4b6c-918c-b1ae8685cb24"
+      />
+
+      <input type="text" name="name" required placeholder="Имя" />
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="Введите вашу электронную почту"
+      />
+
+      <div class="title">
+        <span>Укажите ваш учащийся класс</span>
+      </div>
+
+      <select name="courser" id="box" required>
+        <option value="9 class">9-класс</option>
+        <option value="10 class">10-класс</option>
+        <option value="11 class">11-класс</option>
+      </select>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </body>
+</html>
